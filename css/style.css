@@ -8,6 +8,6 @@
     url('../fonts/font.woff') format('woff'), /* Pretty Modern Browsers */
     url('../fonts/font.ttf')  format('truetype'); /* Legacy iOS */
 }
-h1,h2,h3,h4,h5,h6,label,span,div,header,footer,ul,li,a,input{
+h1,h2,h3,h4,h5,h6,label,span:not(.glyphicon),div,header,footer,ul,li,a,input{
     font-family: font !important;
 }
